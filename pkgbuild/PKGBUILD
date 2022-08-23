@@ -1,0 +1,12 @@
+# Maintainer: Bruno Goncalves <bigbruno@gmail.com>
+
+pkgname=waydroid-meta-x11
+pkgver=$(date +%y.%m.%d)
+pkgrel=$(date +%H%M)
+arch=('any')
+pkgdesc="Simplify waydroid usage in xorg"
+depends=(hide-waydroid-icons waydroid-biglinux weston)
+
+package() {
+  true
+}
